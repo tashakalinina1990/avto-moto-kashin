@@ -1,0 +1,17 @@
+.main-header {
+  background-color: $light-gray;
+}
+
+.main-header__nav {
+  @include centered-layout;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.main-header__logo {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 7px;
+}

@@ -1,0 +1,16 @@
+.card-description {
+  @include centered-layout;
+  padding-bottom: 140px;
+}
+
+.card-description__wrapper {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 90px;
+  padding-top: 73px;
+}
+
+.card-description__gallery {
+  margin-right: 54px;
+  padding-top: 16px;
+}
